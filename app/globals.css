@@ -1,3 +1,9 @@
 html{
   font-family: sans-serif
 }
+
+.nav{
+  background: rgb(207, 172, 75);
+  display: flex;
+  justify-content: space-evenly;
+}

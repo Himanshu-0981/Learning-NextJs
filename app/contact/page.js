@@ -1,9 +1,15 @@
 import React from 'react'
+import Contact from './contact'
+import ServerComp from '@/components/server/ServerComp'
 
-const Contact = () => {
+const Page = () => {
   return (
-    <div>Contact</div>
+    <>
+      <Contact value={'hello'}>
+        <ServerComp />
+      </Contact>
+    </>
   )
 }
 
-export default Contact
+export default Page
