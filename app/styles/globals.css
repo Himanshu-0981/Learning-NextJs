@@ -7,3 +7,7 @@ html{
   display: flex;
   justify-content: space-evenly;
 }
+.link{
+  display: flex;
+  flex-direction: column;
+}

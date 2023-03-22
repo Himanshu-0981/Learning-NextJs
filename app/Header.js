@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import '../app/globals.css'
+import '../app/styles/globals.css'
 import Search from '@/components/client/Search'
 
 const Header = () => {
